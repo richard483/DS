@@ -42,8 +42,9 @@ void pushTail(int angka)
 //     }
 // }
 
-void searchList(int x+1)
+void searchList(int x)
 {
+    x = x+1;
     int a=1;
     Node* curr = head;
     while(curr)
